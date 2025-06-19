@@ -22,7 +22,7 @@ repository               : "bryanjvela/bryanjvela.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bryan_headshot.png"
+  avatar           : "bryan_headshot_cropped.png"
   name             : "Bryan Vela"
   pronouns         : # example: "she/her"  
   bio              : "Machine Learning Researcher"
