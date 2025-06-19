@@ -35,13 +35,16 @@
       {% endif %}
       {% if author.email %}
         <li>
+          <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>
           <a href="mailto:{{ author.email }}">
-            <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>
             {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
-            <span style="font-size: 0.9em;">({{ author.email | replace: "@", " [at] " | replace: ".", " [dot] " }})</span>
-          </a>
+          </a>: 
+          <span style="font-size: 0.9em;">
+            ({{ author.email | replace: "@" , " [at] " | replace: "." , " [dot] " }})
+          </span>
         </li>
       {% endif %}
+
 
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
